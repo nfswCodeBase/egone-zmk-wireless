@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        boot {
+            bindings = <&bootloader>;
+            key-positions = <1 5>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
